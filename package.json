@@ -1,0 +1,46 @@
+{
+  "name": "kanm-backend",
+  "version": "1.0.0",
+  "description": "project manager with kanban methodology",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./dist/src/server.js",
+    "dev": "cross-env NODE_ENV=development ts-node-dev ./src/server.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gyver17/KanM-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gyver17/KanM-backend/issues"
+  },
+  "homepage": "https://github.com/Gyver17/KanM-backend#readme",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/express-validator": "^3.0.0",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/morgan": "^1.9.3",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "prettier": "^2.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0"
+  }
+}
